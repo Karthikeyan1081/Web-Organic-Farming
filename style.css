@@ -1,0 +1,137 @@
+
+nav{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(30, 31, 110);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 0;
+    position: sticky;
+    top: 1px;
+    width: 100%;
+}
+.navbar{
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+}
+.navbar a{
+    color: white;
+}
+.login{
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.login button{
+    background-color: rgb(238, 238, 244);
+    padding: 10px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+.first a{
+    text-decoration: underline;
+}
+.h2 {
+    white-space: nowrap;
+}
+
+.first{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.veg{
+    display: flex;
+    gap: 10px;
+    margin: 0px 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.veg-pro{
+    margin: 0px 10px;
+    background-color: #ddd;
+    text-align: center;
+    width: 350px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.veg>.veg-pro>button{
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: red;
+}
+p{
+    margin: 0px 10px;
+}
+.org-veg{
+    margin: 0px 210px;
+}
+
+.visit{
+    display: flex;
+    gap: 10px;
+    margin: 0px 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.v{
+    margin: 0px 10px;
+    background-color: #ddd;
+    text-align: center;
+    width: 300px;
+}
+.div-cont ,.miss{
+    display: inline-flex;
+    margin: 10px;
+    background-color:burlywood;
+    color: black;
+    border-radius: 20px;
+    align-items: center;
+}
+.cont2,.miss1,.miss2{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+}
+.cont1>img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.why{
+    margin: 0px 100px;
+}
+
+.first a{
+    font-size: 20px;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(30, 31, 110);
+    padding: 20px;
+    line-height: 2;
+}
+.footer a{
+    padding: 0px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.about,.plan{
+    margin: 20px 100px;
+}
